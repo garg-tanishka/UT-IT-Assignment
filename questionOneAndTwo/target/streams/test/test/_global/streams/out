@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.ImplOfTraitTest, org.scalatest.tools.Framework$$anon$1@48e9cf18, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.PasswordTest, org.scalatest.tools.Framework$$anon$1@48e9cf18, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mImplOfTraitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should valid if number is zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should valid if number is palindrome number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if number is negative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not valid if number is non palindrome number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumber[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid if number is zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPasswordTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should valid if the password is 8-15 length, atleast one digit, uppercase, lowercase and special symbol with no space[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if we have space/tabs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if we do not have atleast one digit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if length is less than 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if length is greater than 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if we do not have atleast one uppercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if we do not have atleast one lowercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be valid if we do not have atleast one special symbol[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 63 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.ImplOfTraitTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.PasswordTest[0m

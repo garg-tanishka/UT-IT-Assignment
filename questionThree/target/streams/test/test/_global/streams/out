@@ -1,0 +1,91 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.Validator.UserValidatorTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.db.UserReadDtoTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.CompanyImplIntegrationTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.Validator.EmailValidatorTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.Validator.CompanyValidatorTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.UserImplTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyImplIntegrationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid as it already exists in DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid as email id is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid as email id is invalid and company already exists in DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserReadDtoTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmailValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid because @ does not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid because it cannot contain space/tabs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid because of invalid top domain[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid because email cannot start from any special symbol[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.CompanyImplTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.db.CompanyReadDtoTest, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserImplTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be not be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyImplTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be created[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.UserImplIntegrationTestextends, org.scalatest.tools.Framework$$anon$1@295dbf28, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyReadDtoTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a valid User because User does not exit in DB and email is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a invalid because email is not valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a invalid because user does exist in the DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a invalid because user does exist in the DB and email is not valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserImplIntegrationTestextends:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid as it company does not exists in DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid as email id is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid as email id is invalid and company does not exists in DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a valid as company does not exist in DB and email is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a invalid because company does not exit in DB but email is not valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a invalid because company exist in the DB and email is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a invalid because company does not exist and email is not valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 712 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 29[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 9, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 29, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.Validator.CompanyValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.CompanyImplIntegrationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.Validator.UserValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.Validator.EmailValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.db.UserReadDtoTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.CompanyImplTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.UserImplIntegrationTestextends[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.UserImplTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.db.CompanyReadDtoTest[0m
